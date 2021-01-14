@@ -1,7 +1,6 @@
 # Demonstrating the Ability of Machine Learning Models in Football Analytics
 
-### This repository is created in partial fulfillment of the course BITS F464 Machine Learning
-
+#### This repository is created in partial fulfillment of the course BITS F464 Machine Learning
 #### We worked on time series data of multiple seasons Premier League and Bundesliga to predict the odds of winning for a particular team.
 
 ** 1. Scrape Data **
