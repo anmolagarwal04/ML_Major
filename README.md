@@ -15,9 +15,7 @@ To also scrape FIFA rankings (pass --fifa flag):
 
 
 #### 2. Run Experiment 
-
-```To run:
-python src/<filename>.py --model= <insert model>```
+```python src/<filename>.py --model= <insert model>```
 
 Experiment filenames:
 1. bundesliga_players.py : Player one hot embedding on Bundesliga league
@@ -26,9 +24,7 @@ Experiment filenames:
 4. epl_fifa.py : Player FIFA embedding on EPL league
 
 Allowable models:
-1. lr
-2. rf
-3. xgb
-4. svm
-5. lstm
-6. stacking
+1. lr (Logistic Regression)
+2. rf (Random Forest)
+3. xgb (XGBoost)
+4. svm (Support Vector Machines) 
