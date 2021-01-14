@@ -5,7 +5,6 @@
 #### 1. Scrape Data
 
 To scrape EPL data:
-```
 ```python src/scrape_data.py --league=Premier_League```
 
 To scrape Bundesliga data:
@@ -13,8 +12,6 @@ To scrape Bundesliga data:
 
 To also scrape FIFA rankings (pass --fifa flag):
 ```python src/scrape_data.py --league=Bundesliga --fifa```
-```
-
 
 #### 2. Run Experiment 
 ```python src/<filename>.py --model= <insert model>```
