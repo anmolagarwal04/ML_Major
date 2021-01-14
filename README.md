@@ -1,9 +1,8 @@
 # Demonstrating the Ability of Machine Learning Models in Football Analytics
 
-#### This repository is created in partial fulfillment of the course BITS F464 Machine Learning
-#### We worked on time series data of multiple seasons Premier League and Bundesliga to predict the odds of winning for a particular team.
+#### This repository is created in partial fulfillment of the course BITS F464 Machine Learning. We worked on time series data of multiple seasons Premier League and Bundesliga to predict the odds of winning for a particular team.
 
-** 1. Scrape Data **
+#### 1. Scrape Data
 
 To scrape EPL data:
 ```python src/scrape_data.py --league=Premier_League```
@@ -15,10 +14,10 @@ To also scrape FIFA rankings (pass --fifa flag):
 ```python src/scrape_data.py --league=Bundesliga --fifa```
 
 
-** 2. Run Experiment **
+#### 2. Run Experiment 
 
-To run:
-python src/<filename>.py --model=<insert model>
+```To run:
+python src/<filename>.py --model= <insert model>```
 
 Experiment filenames:
 1. bundesliga_players.py : Player one hot embedding on Bundesliga league
